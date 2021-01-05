@@ -25,7 +25,7 @@ test('shimmed', function (t) {
 		et.end();
 	});
 
-	t.match(keys(Math.clz32).sort().join('|'), /^length|name(|prototype)?$/, 'has no unexpected own keys');
+	t.match(keys(Math.clz32).sort().join('|'), /^(arguments\|caller\|)?length|name(\|prototype)?$/, 'has no unexpected own keys');
 
 	runTests(Math.clz32, t);
 
