@@ -81,7 +81,7 @@
     "has-strict-mode": "^1.0.1",
     "nyc": "^10.3.2",
     "safe-publish-latest": "^1.1.4",
-    "tape": "^5.1.0"
+    "tape": "^5.1.1"
   },
   "dependencies": {
     "define-properties": "^1.1.3",
