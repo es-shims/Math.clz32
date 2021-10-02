@@ -16,9 +16,9 @@ test('named exports', async (t) => {
 	);
 
 	const { shim, getPolyfill, implementation } = clz32Module;
-	t.equal(await import('math.clz32/shim'), shim, 'shim named export matches deep export');
-	t.equal(await import('math.clz32/implementation'), implementation, 'implementation named export matches deep export');
-	t.equal(await import('math.clz32/polyfill'), getPolyfill, 'getPolyfill named export matches deep export');
+	t.equal((await import('math.clz32/shim')).default, shim, 'shim named export matches deep export');
+	t.equal((await import('math.clz32/implementation')).default, implementation, 'implementation named export matches deep export');
+	t.equal((await import('math.clz32/polyfill')).default, getPolyfill, 'getPolyfill named export matches deep export');
 
 	t.end();
 });
