@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.1](https://github.com/es-shims/Math.clz32/compare/v1.0.0...v1.0.1) - 2021-10-02
+
+### Commits
+
+- [actions] update workflows [`0517e9e`](https://github.com/es-shims/Math.clz32/commit/0517e9ebe8f530997f164fe006cef6aae8b41cb7)
+- [Refactor] remove ESM entry points [`a3047e4`](https://github.com/es-shims/Math.clz32/commit/a3047e4fb7c276493710b8d65bba11a565279fab)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `@es-shims/api`, `aud`, `auto-changelog`, `tape` [`6867005`](https://github.com/es-shims/Math.clz32/commit/686700508129bf93a7a372516669b77ea8d2fedf)
+- [readme] add github actions/codecov badges [`efea108`](https://github.com/es-shims/Math.clz32/commit/efea108e934ef0e2021c597360df9a552f927e95)
+- [Deps] update `es-abstract` [`ae15fda`](https://github.com/es-shims/Math.clz32/commit/ae15fda29d39a424f593717e0c10ebfc1293432d)
+- [Test] fix keys test in older nodes [`ee48056`](https://github.com/es-shims/Math.clz32/commit/ee48056f8ce88cf43e6dc102448aff6877f8ad07)
+
 ## v1.0.0 - 2021-01-05
 
 ### Commits
