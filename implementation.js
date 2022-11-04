@@ -1,7 +1,7 @@
 'use strict';
 
-var ToUint32 = require('es-abstract/2021/ToUint32');
-var Call = require('es-abstract/2021/Call');
+var ToUint32 = require('es-abstract/2022/ToUint32');
+var Call = require('es-abstract/2022/Call');
 
 var $Number = Number;
 var LOG2E = Math.LOG2E;
